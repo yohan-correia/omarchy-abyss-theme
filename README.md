@@ -2,6 +2,8 @@
 
 Blue-black depths, cool blue selections, antique gold focus.
 
+![Abyss on a live desktop](preview.png)
+
 Dark enough for a room with the lights off, but not flat: the background sits at
 `#06090b` while panels and popups step up through `#0B1219` and `#101C26`, so the
 UI keeps its depth without any borders shouting. Everything that has focus —
@@ -27,6 +29,7 @@ as the theme `abyss`.
 | `shell.toml` | Omarchy shell — bar, menu, launcher, controls |
 | `vscode.json` | Points VS Code at the `Abyss` extension |
 | `backgrounds/` | Five wallpapers |
+| `preview.png` | The screenshot Omarchy's theme switcher shows |
 
 ### Palette
 
@@ -60,19 +63,21 @@ the rest of the repo:
 
 | File | What it is |
 |---|---|
-| `1-whale.png` | A humpback whale at night, gold light on the surface above |
-| `2-mountains.png` | A mountain lake, one cabin with lit windows |
-| `3-kintsugi.png` | A black ceramic bowl repaired with gold seams |
-| `4-rain-glass.png` | Rain on a dark window, gold bokeh out of focus behind |
+| `1-rain-glass.png` | Rain on a dark window, gold bokeh out of focus behind — the default |
+| `2-whale.png` | A humpback whale at night, gold light on the surface above |
+| `3-mountains.png` | A mountain lake, one cabin with lit windows |
+| `4-kintsugi.png` | A black ceramic bowl repaired with gold seams |
 | `5-contour-lines.png` | Topographic contours in hairline gold |
 
-The first three keep the left half empty for windows. The last two are all-over
-patterns with no focal point, for when you would rather the desktop be covered.
+Omarchy opens a theme on its first wallpaper, so the rain is what you see after
+`omarchy theme set abyss`. The whale, mountains and kintsugi keep the left half
+empty for windows; the rain and the contour lines are all-over patterns with no
+focal point, for when you would rather the desktop be covered.
 
 ## Not included
 
 This theme covers the terminal, Hyprland, the Omarchy shell and VS Code. It does
-not ship `neovim.lua`, `icons.theme`, `preview.png` or `unlock.png` — Omarchy
+not ship `neovim.lua`, `icons.theme` or `unlock.png` — Omarchy
 falls back to its defaults for those. Pull requests welcome.
 
 ## License
