@@ -1,0 +1,52 @@
+[bar]
+background = "#06090b"
+background-alpha = 1.0
+text = "#D8DFE5"
+active = "#C2A46D"
+
+[hyprland]
+active-border = "#C2A46D"
+active-border-foreground = "#F0EADF"
+
+[controls]
+normal-color = "#D8DFE5"
+hover-cursor-color = "#78A6CC"
+hover-cursor-fill-alpha = 0.15
+focus-color = "#C2A46D"
+focus-border = "#C2A46D"
+focus-border-width = 1
+focus-border-alpha = 1.0
+focus-fill-alpha = 0.12
+selected-color = "#C2A46D"
+selected-border = "#C2A46D"
+selected-border-width = 1
+selected-border-alpha = 0.65
+selected-fill-alpha = 0.15
+selection-color = "#78A6CC"
+selection-fill-alpha = 0.35
+
+[menu]
+background = "#06090b"
+background-alpha = 0.98
+text = "#D8DFE5"
+border = "#C2A46D"
+border-alpha = 1.0
+selected-background = "#25445B"
+selected-background-alpha = 1.0
+selected-text = "#F0EADF"
+selected-border = "#C2A46D"
+selected-border-alpha = 0.8
+selected-border-width = 1
+
+[launcher]
+background = "#06090b"
+background-alpha = 0.98
+text = "#D8DFE5"
+border = "#C2A46D"
+border-alpha = 1.0
+selected-background = "#25445B"
+selected-background-alpha = 1.0
+selected-text = "#F0EADF"
+selected-border = "#C2A46D"
+selected-border-alpha = 0.8
+selected-border-width = 1
