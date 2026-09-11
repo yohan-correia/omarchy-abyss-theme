@@ -26,7 +26,7 @@ as the theme `abyss`.
 | `colors.toml` | Terminal palette, Hyprland borders, base 16 colors |
 | `shell.toml` | Omarchy shell — bar, menu, launcher, controls |
 | `vscode.json` | Points VS Code at the `Abyss` extension |
-| `backgrounds/` | Four wallpapers |
+| `backgrounds/` | Five wallpapers |
 
 ### Palette
 
@@ -55,8 +55,19 @@ the theme's own `colors.toml`, so the editor and the terminal never drift apart.
 
 ## Wallpapers
 
-The four backgrounds (whale, mountain lake, ringed planet, kintsugi bowl) are AI-generated at 1920x1080, and are released under the same license
-as the rest of the repo.
+Five AI-generated backgrounds at 1920x1080, released under the same license as
+the rest of the repo:
+
+| File | What it is |
+|---|---|
+| `1-whale.png` | A humpback whale at night, gold light on the surface above |
+| `2-mountains.png` | A mountain lake, one cabin with lit windows |
+| `3-kintsugi.png` | A black ceramic bowl repaired with gold seams |
+| `4-rain-glass.png` | Rain on a dark window, gold bokeh out of focus behind |
+| `5-contour-lines.png` | Topographic contours in hairline gold |
+
+The first three keep the left half empty for windows. The last two are all-over
+patterns with no focal point, for when you would rather the desktop be covered.
 
 ## Not included
 
