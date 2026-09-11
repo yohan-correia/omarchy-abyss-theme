@@ -27,7 +27,7 @@ as the theme `abyss`.
 |---|---|
 | `colors.toml` | Terminal palette, Hyprland borders, base 16 colors |
 | `shell.toml` | Omarchy shell — bar, menu, launcher, controls |
-| `vscode.json` | Points VS Code at the `Abyss` extension |
+| `vscode-theme.json` | VS Code, VSCodium and Cursor |
 | `backgrounds/` | Five wallpapers |
 | `preview.png` | The screenshot Omarchy's theme switcher shows |
 
@@ -45,16 +45,21 @@ as the theme `abyss`.
 
 ## VS Code
 
-The Omarchy theme sets `vscode.json` to select the `Abyss` extension, which is
-not on the Marketplace. Install it from the bundled build:
+Nothing to install. Omarchy loads a theme's `vscode-theme.json` into VS Code,
+VSCodium and Cursor as the **Omarchy** color theme, and selects it whenever you
+run `omarchy theme set abyss`. Without that file Omarchy would generate a
+generic one from `colors.toml`, with every surface at the same `#06090b` and
+gold selections; this one keeps the panels a step up and selections blue.
+
+Outside Omarchy, the same theme is bundled as an extension:
 
 ```bash
 code --install-extension vscode/abyss-theme-1.0.0.vsix
 ```
 
-Then pick **Abyss** under Color Theme. To rebuild it after editing
-`colors.toml`, run `python vscode/build.py` — the builder reads the palette from
-the theme's own `colors.toml`, so the editor and the terminal never drift apart.
+To rebuild both after editing the palette, run `python vscode/build.py` — the
+builder reads the theme's own `colors.toml` and writes `vscode-theme.json` and
+the extension together, so the editor and the terminal never drift apart.
 
 ## Wallpapers
 
