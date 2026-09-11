@@ -55,7 +55,7 @@ the theme's own `colors.toml`, so the editor and the terminal never drift apart.
 
 ## Wallpapers
 
-The four backgrounds are AI-generated at 1920x1080, and are released under the same license
+The four backgrounds (whale, mountain lake, ringed planet, kintsugi bowl) are AI-generated at 1920x1080, and are released under the same license
 as the rest of the repo.
 
 ## Not included
