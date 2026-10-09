@@ -250,6 +250,24 @@
       }
     },
     {
+      "name": "Env keys",
+      "scope": [
+        "variable.key.dotenv"
+      ],
+      "settings": {
+        "foreground": "#83BCC5"
+      }
+    },
+    {
+      "name": "Env values",
+      "scope": [
+        "property.value.dotenv"
+      ],
+      "settings": {
+        "foreground": "#D8DFE5"
+      }
+    },
+    {
       "name": "Tags",
       "scope": [
         "entity.name.tag"
