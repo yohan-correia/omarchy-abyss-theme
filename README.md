@@ -68,11 +68,11 @@ the rest of the repo:
 
 | File | What it is |
 |---|---|
-| `1-rain-glass.png` | Rain on a dark window, gold bokeh out of focus behind — the default |
-| `2-whale.png` | A humpback whale at night, gold light on the surface above |
-| `3-mountains.png` | A mountain lake, one cabin with lit windows |
-| `4-kintsugi.png` | A black ceramic bowl repaired with gold seams |
-| `5-contour-lines.png` | Topographic contours in hairline gold |
+| `1-rain-glass.webp` | Rain on a dark window, gold bokeh out of focus behind — the default |
+| `2-whale.webp` | A humpback whale at night, gold light on the surface above |
+| `3-mountains.webp` | A mountain lake, one cabin with lit windows |
+| `4-kintsugi.webp` | A black ceramic bowl repaired with gold seams |
+| `5-contour-lines.webp` | Topographic contours in hairline gold |
 
 Omarchy opens a theme on its first wallpaper, so the rain is what you see after
 `omarchy theme set abyss`. The whale, mountains and kintsugi keep the left half
